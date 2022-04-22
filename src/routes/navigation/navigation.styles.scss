@@ -1,13 +1,15 @@
 .navigation {
-  height: 70px;
+  height: 80px;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   .logo-container {
     height: 100%;
-    width: 70px;
-    padding: 25px;
+    padding: 10px;
+    .logo {
+      width: 150px;
+    }
   }
   .nav-links-container {
     width: 50%;
@@ -15,9 +17,11 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    padding-right: 10px;
     .nav-link {
       padding: 10px 15px;
       cursor: pointer;
+      font-weight: bolder;
     }
   }
 }
