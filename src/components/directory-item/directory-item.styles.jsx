@@ -54,11 +54,6 @@ export const DirectoryItemContainer = styled.div`
       opacity: 0.9;
     }
   }
-
-  &.large {
-    height: 380px;
-  }
-
   // &:first-child {
   //   margin-right: 7.5px;
   // }
