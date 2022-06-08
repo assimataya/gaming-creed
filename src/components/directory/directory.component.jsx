@@ -1,49 +1,36 @@
 import { DirectoryContainer } from "./directory.styles.jsx";
 import DirectoryItem from "../directory-item/directory-item.component";
 
-import cpu from "../../assets/cpu.jpg";
-import gpu from "../../assets/gpu.jpg";
-import mobo from "../../assets/mobo.jpg";
-import amd from "../../assets/amd.jpg";
-import intel from "../../assets/intel.jpg";
-import nvidia from "../../assets/nvidia.jpg";
-
 const categories = [
   {
     id: 1,
-    title: "CPUs",
-    imageUrl: cpu,
-    route: "shop/hats"
+    title: 'Hats',
+    imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+    route: 'shop/hats',
   },
   {
     id: 2,
-    title: "GPUs",
-    imageUrl: gpu,
-    route: "shop/jackets"
+    title: 'Jackets',
+    imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+    route: 'shop/jackets',
   },
   {
     id: 3,
-    title: "Motherboards",
-    imageUrl: mobo,
-    route: "shop/sneakers"
+    title: 'Sneakers',
+    imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+    route: 'shop/sneakers',
   },
   {
     id: 4,
-    title: "AMD",
-    imageUrl: amd,
-    route: "shop/womens"
+    title: 'Womens',
+    imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+    route: 'shop/womens',
   },
   {
     id: 5,
-    title: "Intel",
-    imageUrl: intel,
-    route: "shop/mens"
-  },
-  {
-    id: 6,
-    title: "Nvidia",
-    imageUrl: nvidia,
-    route: ""
+    title: 'Mens',
+    imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+    route: 'shop/mens',
   },
 ];
 
